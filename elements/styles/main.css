@@ -1,0 +1,342 @@
+/* -------------
+* PODSTAWY
+* ---------- */
+
+body {
+color: black;
+background:url(../images/backgrounds/site_bg_3.jpg) center top no-repeat #101608;
+margin: 0px;
+padding: 0px; 
+font: 14px verdana, Sans-serif;
+}
+
+.site_wrapper {
+margin:0px auto 0px auto;
+width:900px;
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:1px solid black;
+background:rgba(255, 255, 255, 0.9);
+padding:30px 10px 10px 10px;
+overflow:auto;
+}
+
+.center {
+width:900px;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+}
+
+a {
+text-decoration:	  none;
+color:				#455A82; }
+
+a:hover {
+text-decoration:	  underline;
+color:				#004887; }
+
+img {
+border: 0px;
+}
+
+*:focus {
+outline: 0;
+}
+
+textarea {
+width:100%;
+}
+
+input {
+font-size:14px;
+padding:5px;
+}
+
+/* -------------
+* HEAD
+* ---------- */
+
+.head {
+}
+
+.head .banner {
+height:65px;
+background:#709636;
+
+}
+
+.head .logo {
+position:absolute;
+right:10px;
+top:3px;
+}
+
+.head .menu {
+border-top:1px solid black;
+border-bottom:1px solid black;
+background:rgba(255, 255, 255, 1);
+height:45px;
+}
+
+.head .menu ul {
+position:absolute;
+top:5px;
+left:0px;
+margin:0px;
+padding:0px;
+}
+
+.head .menu ul a {
+float:left;
+list-style:none;
+margin-right:10px;
+display:list;
+text-decoration:none;
+
+font-family: Verdana, sans-serif;
+font-size: 18px;
+color: #ffffff;
+padding: 5px 15px 5px 15px;
+background:#709636;
+border-radius: 3px;
+border: 1px solid #4a6322;
+box-shadow:
+0px 1px 3px rgba(070,082,104,1),
+inset 0px 1px 0px rgba(194,223,148,1);
+text-shadow:
+2px 2px 0px rgba(065,092,025,1),
+2px 2px 0px rgba(065,092,025,0);
+}
+
+.head .menu ul a:hover , .head .menu ul a.active{
+background:#9FBC36;
+padding:5px 15px 18px 15px;
+}
+
+.head .menu ul a.home {
+background-image:url('../images/Home.png');
+background-repeat:no-repeat;
+background-position:6px 5px;
+}
+
+
+/* -------------
+* METRO HOME
+* ---------- */
+
+.metro {
+display:table;
+width:100%;
+border-spacing:10px;
+}
+
+.metro a , .metro a:hover {
+text-decoration:none;
+}
+
+.piece {
+background-size:cover;
+height:300px;
+border:1px solid black;
+margin:5px;
+display:table-cell;
+}
+
+.piece:hover {
+border:1px solid white;
+box-shadow: 0px 8px 22px #000000;
+}
+
+.piece.about {background:url(../images/backgrounds/metro/lawenda.jpg);}
+.piece.offert {background:url(../images/backgrounds/metro/sciezka.jpg);}
+.piece.gallery {background:url(../images/backgrounds/metro/meble.jpg);}
+.piece.contact {background:url(../images/backgrounds/metro/donice3.jpg);}
+
+
+
+.piece .holder {
+position:relative;
+height:100%;
+}
+
+.piece .desc {
+position:absolute;
+background:url(../images/backgrounds/black_transparent_1.png);
+color:silver;
+padding:15px;
+font-size:11px;
+left:0px;
+right:0px;
+bottom:0px;
+}
+
+/* -----------
+ * GALLERY
+ * --------- */
+ 
+.gallery_cover {
+float:left;
+width:210px;
+margin:6px 7px 10px 7px;
+}
+
+.gallery_cover .preview img {
+width:200px;
+height:150px;
+border:1px solid black;
+display:block;
+box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.gallery_cover .preview img:hover {
+border:1px solid white;
+box-shadow: 0px 0px 20px black;
+}
+
+.gallery_cover .description {
+display:block;
+font-size:13px;
+line-height:25px;
+margin:8px 5px 8px 8px;
+}
+
+.gallery_image {
+width:120px;
+height:90px;
+border:1px solid black;
+float:left;
+margin:3px;
+}
+
+.gallery_image:hover {
+box-shadow:2px 2px 15px rgba(0, 0, 0, 1);
+}
+
+.gallery_description {
+font-size:12px;
+margin:0px 20px 30px 20px;
+line-height:18px;
+text-align:justify;
+}
+
+.gallery_info {
+font-size:12px;
+margin:0px 20px 30px 20px;
+line-height:18px;
+text-align:justify;
+}
+
+/* -----------
+ * ABOUT
+ * --------- */
+
+.content_about{
+padding:0px 10px 10px 10px;
+line-height:16px;
+margin:0px 10px 10px 10px;
+color: black;
+text-shadow:0px -1px 1px silver;
+font-size: 13px;
+line-height:20px;
+text-align:justify;
+}
+
+.content_about img {
+border-color:black;
+box-shadow: 0px 3px 18px #2F2F2F;
+}
+
+/* -----------
+ * OFFERT
+ * --------- */
+
+.content_offert{
+padding:0px 10px 10px 10px;
+line-height:16px;
+margin:0px 10px 10px 10px;
+color: black;
+text-shadow:0px -1px 1px silver;
+font-size: 13px;
+line-height:20px;
+text-align:justify;
+}
+
+.content_offert img {
+border-color:black;
+box-shadow: 0px 3px 18px #2F2F2F;
+}
+
+/* -----------
+ * FOOTER
+ * --------- */
+
+.main_footer {
+overflow:auto;
+margin-bottom:30px;
+margin-top:10px;
+}
+
+.main_footer .info {
+font-size:11px;
+text-shadow:1px 1px 1px #000000,-1px 3px 3px #000000;
+float:left;
+}
+.main_footer .info a {
+color:silver;
+}
+.main_footer .info a:hover {
+color:white;
+}
+
+/* -----------
+ * CONTACT
+ * --------- */
+
+.contact_wrapper {
+display:table;
+width:100%;
+}
+
+.contact_form {
+background:#F8F8F8;
+border:1px solid #A3A3A3;
+display:block;
+padding:10px;
+box-shadow:2px 2px 10px silver;
+width:500px;
+display:table-cell;
+}
+
+.contact_form textarea {
+height:250px;
+}
+
+.contact_form input[name=mail] {
+width:230px;
+border:1px solid #A9A9A9;
+}
+.contact_form input[name=mail]:focus {
+border:1px solid #D47B19;
+}
+
+.contact_space {
+display:table-cell;
+width:15px;
+}
+
+.contact_info {
+display:table-cell;
+padding:10px;
+font-size:13px;
+color:#464646;
+line-height:20px;
+}
+
+.contact_info h1 {
+font-size:18px;
+font-family:Verdana;
+font-weight:normal;
+padding:0px;
+margin:0px 0px 10px 0px;
+}
